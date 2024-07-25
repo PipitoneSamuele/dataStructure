@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
+import { TreeComponent } from './tabs/tree/tree.component';
+import { LinkedListComponent } from './tabs/linked-list/linked-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TreeComponent,
+    LinkedListComponent
   ],
   imports: [
     BrowserModule,
