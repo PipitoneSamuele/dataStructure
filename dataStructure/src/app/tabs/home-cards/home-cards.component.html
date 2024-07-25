@@ -1,1 +1,3 @@
-<p>home-cards works!</p>
+<li *ngFor="let card of cards">
+    <app-home-card [name]="card.name"></app-home-card>
+</li>

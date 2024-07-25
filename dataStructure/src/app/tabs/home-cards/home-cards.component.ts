@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomeCardsComponent {
 
+  readonly cards = [
+    {'name': 'tree'},
+    {'name': 'linked list'},
+    {'name': 'altro'}
+  ];
+
 }
