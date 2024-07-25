@@ -9,6 +9,7 @@ import { TreeComponent } from './data-structure/tree/tree.component';
 import { LinkedListComponent } from './data-structure/linked-list/linked-list.component';
 import { HomeCardsComponent } from './tabs/home-cards/home-cards.component';
 import { HomeCardComponent } from './tabs/home-card/home-card.component';
+import { AboutComponent } from './core/about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeCardComponent } from './tabs/home-card/home-card.component';
     TreeComponent,
     LinkedListComponent,
     HomeCardsComponent,
-    HomeCardComponent
+    HomeCardComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
