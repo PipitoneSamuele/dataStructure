@@ -8,16 +8,9 @@ import { Component } from '@angular/core';
 export class HomeCardsComponent {
 
   readonly cards = [
-    {'name': 'tree'},
-    {'name': 'linked list'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
-    {'name': 'altro'},
+    {'name': 'TREE', 'path': '/tree'},
+    {'name': 'LINKED LIST', 'path': '/linked-list'},
+    {'name': 'ALTRO', 'path': '/tree'}
   ];
 
 }

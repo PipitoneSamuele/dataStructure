@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 export class HomeCardComponent {
 
   @Input() name: any;
+  @Input() path: any;
 
 }

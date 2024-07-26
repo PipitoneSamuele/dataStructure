@@ -11,4 +11,10 @@
 
 .image {
     width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.text {
+    font-weight: bold;
+    font-size: large;
 }
