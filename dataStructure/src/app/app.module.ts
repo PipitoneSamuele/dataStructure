@@ -10,6 +10,7 @@ import { LinkedListComponent } from './data-structure/linked-list/linked-list.co
 import { HomeCardsComponent } from './tabs/home-cards/home-cards.component';
 import { HomeCardComponent } from './tabs/home-card/home-card.component';
 import { AboutComponent } from './core/about/about.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './core/about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

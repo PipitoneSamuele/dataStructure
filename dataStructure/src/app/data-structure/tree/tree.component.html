@@ -1,1 +1,13 @@
-<a routerLink="/" routerLinkActive="active">premimi</a>
+<div class="container">
+    <div class="expl-container">
+        <p>Inserisci dei numeri separati dal carattere "-", senza spazi</p>
+        <p>Per esempio 1-2-3-4</p>
+    </div>
+    <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label>Tree data: </label>
+            <input name="treeDataInput" type="text" formControlName="treeDataInput">
+        </div>
+        <button class="button" type="submit">Invio</button>
+    </form>
+</div>

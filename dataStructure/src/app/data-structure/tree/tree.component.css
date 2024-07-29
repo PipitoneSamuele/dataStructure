@@ -1,0 +1,11 @@
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.expl-container {
+    background-color: #d4d4d4;
+    margin-bottom: 3vh;
+    padding: 5px;
+    text-align: center;
+}
